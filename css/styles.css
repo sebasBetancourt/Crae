@@ -113,7 +113,7 @@ body{
 /*-------------------INICIO-------------------------*/
 .section__inicio {
     display: flex;
-    background: red;
+    /* background: red; */
     margin-top: 53px;
 }
 .article__inicio {
@@ -141,10 +141,38 @@ body{
     font-weight: normal;
 }
 .div__container--inicio {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    /* background: green; */
+    margin-left: 1%;
 }
 .div__button--comprar {
+    display: flex;
+    background: var(--color-2);
+    width: 237px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    border-radius: 31.5px;
+}
+.div__button--comprar a{
+    text-decoration: none;
+    color: var(--font-color-3);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 30px;
 }
 .div__social {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 82px;
+    height: 210px;
+    gap: 7px;
+    margin-left: 2%;
 }
 
 
