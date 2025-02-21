@@ -10,6 +10,8 @@ body{
     background: var(--backgorund-color-1);
 }
 
+
+/*-------------------HEADER-------------------------*/
 .header {
     display: flex;
     align-items: flex-end;
@@ -105,3 +107,7 @@ body{
     gap: 15px;
     margin-left: 20%;
 }
+
+
+
+/*-------------------INICIO-------------------------*/
