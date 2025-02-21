@@ -6,3 +6,346 @@
     box-sizing: border-box;
 }
 
+body{
+    background: var(--backgorund-color-1);
+}
+
+
+/*-------------------HEADER-------------------------*/
+.header {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 31px;
+}
+.div__box--aqua {
+    position: relative;
+    width: 304px;
+    height: 96px;
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 48px;
+    gap: 5px;
+    left: -2%;
+}
+.div__box--aqua a{
+    text-decoration: none;
+    color: var(--font-color-1);
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+}
+.nav {
+    /* background: green; */
+    width: 832px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.div__navegacion {
+    display: flex;
+}
+.div__inicio {
+    display: flex;
+    width: 72px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.div__inicio a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__Jugar {
+    display: flex;
+    width: 138px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 14%;
+}
+.div__Jugar a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__Apoyanos {
+    display: flex;
+    width: 119px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 10%;
+}
+.div__Apoyanos a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__Nosotros {
+    display: flex;
+    width: 186px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 10%;
+}
+.div__Nosotros a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__icons {
+    display: flex;
+    gap: 15px;
+    padding-left: 12%;
+}
+
+
+
+/*-------------------INICIO-------------------------*/
+.section__inicio {
+    display: flex;
+    /* background: red; */
+    margin-top: 53px;
+}
+.article__inicio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 3%;
+}
+.article__inicio img{
+    width: 707px;
+    height: 391px;
+}
+.article__inicio h2{
+    width: 707px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.article__inicio p{
+    width: 707px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.div__container--inicio {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    /* background: green; */
+    margin-left: 1%;
+}
+.div__button--comprar {
+    display: flex;
+    background: var(--color-2);
+    width: 237px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    border-radius: 31.5px;
+}
+.div__button--comprar a{
+    text-decoration: none;
+    color: var(--font-color-3);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 30px;
+}
+.div__social {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 82px;
+    height: 210px;
+    gap: 7px;
+    margin-left: 2%;
+    margin-top: 15%;
+}
+
+
+/*-------------------JUGAR-------------------------*/
+
+.section__jugar {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    gap: 70px;
+    padding: 30px 169px 0 172px;
+}
+.article__jugar {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    align-items: center;
+}
+.article__jugar  h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.article__jugar  p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    width: 654px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.div__container--jugar {
+    display: flex;
+    margin-bottom: 60px;
+    gap: 40px;
+    width: 1200px;
+    align-self: center;
+    /* background: green; */
+}
+.div__container--jugar p{
+    width: 897px;
+    height: 187px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--font-color-2);
+}
+.div__numerador {
+    background: var(--color-2);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    align-content: center;
+}
+.div__numerador span{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 54px;
+    color: var(--font-color-3);
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------SECCION APOYANOS--------------------*/
+
+.section__apoyanos {
+    display: flex;
+    /* background: yellow; */
+    margin-top: 8%;
+    padding: 30px 169px 0 162px;
+    gap: 40px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 751px;
+    gap: 50px;
+}
+.content h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.content p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 44px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.div__aporte {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.div__button--aporte {
+    background: var(--color-2);
+    width: 282px;
+    height: 57px;
+    border-radius: 48px;
+    text-align: center;
+    align-content: center;
+}
+.div__button--aporte a{
+    text-decoration: none;
+    color: var(--font-color-3);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 36px;
+}
+
+
+/*-------------------------SECCION NOSOTROS--------------------*/
+.section__nosotros {
+    display: flex;
+    /* background: yellow; */
+    margin-top: 10%;
+    padding: 30px 169px 0 162px;
+    gap: 40px;
+}
+.content__nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 751px;
+    gap: 50px;
+}
+.content__nosotros h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.content__nosotros p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 44px;
+    color: var(--font-color-4);
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+.div__nosotros {
+    /* background: red; */
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div__people--img {
+    width: 282px;
+    display: flex;
+    
+    
+}
+.div__people--img img:last-child{
+    position: relative;
+    right: 120px;
+}
+.div__button--nosotros {
+    /* background: green; */
+    width: 282px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.div__button--nosotros span{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 96px;
+    color: var(--font-color-2);
+}
+.div__button--nosotros img{
+    width: 82px;
+    height: 82px;
+}
