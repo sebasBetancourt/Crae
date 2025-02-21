@@ -15,6 +15,7 @@ body{
 .header {
     display: flex;
     align-items: flex-end;
+    padding-top: 31px;
 }
 .div__box--aqua {
     position: relative;
@@ -106,6 +107,7 @@ body{
     display: flex;
     gap: 15px;
     margin-left: 20%;
+    margin-top: ;
 }
 
 
@@ -173,17 +175,18 @@ body{
     height: 210px;
     gap: 7px;
     margin-left: 2%;
+    margin-top: 15%;
 }
 
 
 /*-------------------JUGAR-------------------------*/
 
 .section__jugar {
-    background: red;
+    /* background: red; */
     display: flex;
     flex-direction: column;
     margin-top: 8%;
-    gap: 30px;
+    gap: 70px;
 }
 .article__jugar {
     display: flex;
@@ -205,6 +208,31 @@ body{
     font-weight: normal;
 }
 .div__container--jugar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.div__container--jugar p{
+    width: 757px;
+    height: 187px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    margin-left: 20px;
+    color: var(--font-color-2);
 }
 .div__numerador {
+    background: var(--color-2);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    align-content: center;
+    margin-left: 40px;
+}
+.div__numerador span{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 54px;
+    color: var(--font-color-3);
+    display: flex;
+    justify-content: center;
 }
