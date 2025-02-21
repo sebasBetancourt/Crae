@@ -178,3 +178,33 @@ body{
 
 /*-------------------JUGAR-------------------------*/
 
+.section__jugar {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    gap: 30px;
+}
+.article__jugar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+}
+.article__jugar  h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.article__jugar  p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    width: 654px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.div__container--jugar {
+}
+.div__numerador {
+}
