@@ -187,12 +187,13 @@ body{
     flex-direction: column;
     margin-top: 8%;
     gap: 70px;
+    padding: 30px 169px 0 172px;
 }
 .article__jugar {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 41px;
+    align-items: center;
 }
 .article__jugar  h2{
     font-family: "RobotoCondensed-Bold";
@@ -209,16 +210,17 @@ body{
 }
 .div__container--jugar {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 60px;
+    gap: 40px;
+    width: 1200px;
+    align-self: center;
+    /* background: green; */
 }
 .div__container--jugar p{
-    width: 757px;
+    width: 897px;
     height: 187px;
     font-family: "RobotoCondensed-Regular";
     font-size: 36px;
-    margin-left: 20px;
     color: var(--font-color-2);
 }
 .div__numerador {
@@ -227,7 +229,6 @@ body{
     height: 100px;
     border-radius: 100%;
     align-content: center;
-    margin-left: 40px;
 }
 .div__numerador span{
     font-family: "RobotoCondensed-Bold";
@@ -236,3 +237,6 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/*-------------------------SECCION APOYANOS--------------------*/
+
