@@ -111,3 +111,41 @@ body{
 
 
 /*-------------------INICIO-------------------------*/
+.section__inicio {
+    display: flex;
+    background: red;
+    margin-top: 53px;
+}
+.article__inicio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 3%;
+}
+.article__inicio img{
+    width: 707px;
+    height: 391px;
+}
+.article__inicio h2{
+    width: 707px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.article__inicio p{
+    width: 707px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.div__container--inicio {
+}
+.div__button--comprar {
+}
+.div__social {
+}
+
+
+/*-------------------JUGAR-------------------------*/
