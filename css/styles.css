@@ -6,3 +6,102 @@
     box-sizing: border-box;
 }
 
+body{
+    background: var(--backgorund-color-1);
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+.div__box--aqua {
+    position: relative;
+    width: 304px;
+    height: 96px;
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 48px;
+    gap: 5px;
+    left: -55px;
+}
+.div__box--aqua a{
+    text-decoration: none;
+    color: var(--font-color-1);
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+}
+.nav {
+    width: 732px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.div__navegacion {
+    display: flex;
+}
+.div__inicio {
+    display: flex;
+    width: 72px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.div__inicio a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__Jugar {
+    display: flex;
+    width: 138px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 14%;
+}
+.div__Jugar a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__Apoyanos {
+    display: flex;
+    width: 119px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 10%;
+}
+.div__Apoyanos a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__Nosotros {
+    display: flex;
+    width: 186px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 10%;
+}
+.div__Nosotros a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.div__icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 20%;
+}
