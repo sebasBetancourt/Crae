@@ -27,7 +27,7 @@ body{
     justify-content: center;
     border-radius: 48px;
     gap: 5px;
-    left: -55px;
+    left: -2%;
 }
 .div__box--aqua a{
     text-decoration: none;
@@ -36,10 +36,12 @@ body{
     font-size: 48px;
 }
 .nav {
-    width: 732px;
+    background: green;
+    width: 832px;
     height: 38px;
     display: flex;
     flex-direction: column;
+    justify-self: center;
 }
 .div__navegacion {
     display: flex;
@@ -106,8 +108,7 @@ body{
 .div__icons {
     display: flex;
     gap: 15px;
-    margin-left: 20%;
-    margin-top: ;
+    padding-left: 12%;
 }
 
 
@@ -240,3 +241,48 @@ body{
 
 /*-------------------------SECCION APOYANOS--------------------*/
 
+.section__apoyanos {
+    display: flex;
+    /* background: yellow; */
+    margin-top: 8%;
+    padding: 30px 169px 0 162px;
+    gap: 40px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 751px;
+    gap: 50px;
+}
+.content h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.content p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 44px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.div__aporte {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.div__button--aporte {
+    background: var(--color-2);
+    width: 282px;
+    height: 57px;
+    border-radius: 48px;
+    text-align: center;
+    align-content: center;
+}
+.div__button--aporte a{
+    text-decoration: none;
+    color: var(--font-color-3);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 36px;
+}
