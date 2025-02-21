@@ -36,7 +36,7 @@ body{
     font-size: 48px;
 }
 .nav {
-    background: green;
+    /* background: green; */
     width: 832px;
     height: 38px;
     display: flex;
@@ -285,4 +285,67 @@ body{
     color: var(--font-color-3);
     font-family: "RobotoCondensed-Bold";
     font-size: 36px;
+}
+
+
+/*-------------------------SECCION NOSOTROS--------------------*/
+.section__nosotros {
+    display: flex;
+    /* background: yellow; */
+    margin-top: 10%;
+    padding: 30px 169px 0 162px;
+    gap: 40px;
+}
+.content__nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 751px;
+    gap: 50px;
+}
+.content__nosotros h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--font-color-4);
+    font-weight: normal;
+}
+.content__nosotros p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 44px;
+    color: var(--font-color-4);
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+.div__nosotros {
+    /* background: red; */
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div__people--img {
+    width: 282px;
+    display: flex;
+    
+    
+}
+.div__people--img img:last-child{
+    position: relative;
+    right: 120px;
+}
+.div__button--nosotros {
+    /* background: green; */
+    width: 282px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.div__button--nosotros span{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 96px;
+    color: var(--font-color-2);
+}
+.div__button--nosotros img{
+    width: 82px;
+    height: 82px;
 }
